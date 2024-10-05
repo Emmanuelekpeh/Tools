@@ -1,6 +1,6 @@
 import os
 
-def batch_rename(directory, prefix):
+def bulk_rename(directory, prefix):
     files= os.listdir(directory)
 
     for index, filename in enumerate(files):
